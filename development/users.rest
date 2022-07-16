@@ -1,10 +1,15 @@
 @host = http://localhost:3030
 
-### Get all users
-GET {{host}}
+@id = 62d26d6958c551286fca4afb
 
 ### Get all users
-GET http://localhost:3030/users
+GET {{host}}/users
+
+### Get me info
+GET {{host}}/me
+
+### Get one user
+GET {{host}}/users/{{id}}
 
 ### Create multiple users
 POST {{host}}/users
@@ -30,3 +35,9 @@ Content-Type: application/json
         "image": ""
     }
 ]
+
+### Get all message
+/messages
+
+### Get on message
+/message
