@@ -3,7 +3,8 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
     res.send ({
-    twitter_name: "LordComandante",
+    _id: "010010000110010101101100"
+        twitter_name: "LordComandante",
     first_name: "Jon",
     last_name: "Snow",
     email: "wardenofthenorth@gmail.com",
