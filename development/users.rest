@@ -33,6 +33,26 @@ Content-Type: application/json
         "phone": "049840457766",
         "followers": "455298",
         "image": "john-anvik-h-sEwPkw-TY-unsplash.jpg"
+    },
+    {
+        "twitter_name": "FatimahSzczublewski",
+        "first_name": "Fatimah",
+        "last_name": "Szczublewski",
+        "email": "fatimah.szczublewski@example.com",
+        "phone": "0498404577546",
+        "followers": "45528",
+        "image": "lucas-hoang-eNCgAozCuKo-unsplash.jpg"
+    },
+    {
+        "twitter_name": "OdellHelmboldt",
+        "first_name": "Odell",
+        "last_name": "Helmboldt",
+        "email": "Odell.Helmboldt@example.com",
+        "phone": "0493304577546",
+        "followers": "15528",
+        "image": "mulyadi-tWp0VSlSdMI-unsplash.jpg"
+    },
+]
     }
 ]
 

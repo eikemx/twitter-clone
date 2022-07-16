@@ -9,7 +9,7 @@ const userSchema = new Schema(
     email: { type: String },
     phone: { type: String },
     followers: { type: Number },
-    iamge: { type: String },
+    image: { type: String },
   },
   { timestamps: true }
 );
