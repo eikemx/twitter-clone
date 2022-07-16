@@ -3,11 +3,17 @@ const router = express.Router();
 
 const {
     list_users,
+    find_user,
     create_users,
 } = require("../controllers/userController");
 
-// router.get("/", list_user);
-router.get("/", list_users)
-router.post("/", create_users);
+router  
+    .route("/")
+    .get(list_users)
+    .post(create_users);
+
+router
+    .route("/:id")
+    .get(find_user);
 
 module.exports = router;
