@@ -1,0 +1,32 @@
+@host = http://localhost:3030
+
+### Get all users
+GET {{host}}
+
+### Get all users
+GET http://localhost:3030/users
+
+### Create multiple users
+POST {{host}}/users
+Content-Type: application/json
+
+[
+    {
+        "twitter_name": "Miss-J",
+        "first_name": "Jennie",
+        "last_name": "Nichols",
+        "email": "jennie.nichols@example.com",
+        "phone": "2727900888",
+        "followers": "2007",
+        "image": ""
+    },
+    {
+        "twitter_name": "sadgoose696",
+        "first_name": "Troy",
+        "last_name": "Skistad",
+        "email": "troy.skistad@example.com",
+        "phone": "049840766",
+        "followers": "45298",
+        "image": ""
+    }
+]
