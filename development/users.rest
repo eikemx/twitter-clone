@@ -17,12 +17,12 @@ Content-Type: application/json
 
 [
     {
-        "twitter_name": "RyanMancia",
-        "first_name": "Ryan",
-        "last_name": "Mancia",
-        "email": "Ryan.Mancia@example.com",
-        "phone": "049334377546",
-        "followers": "1538",
-        "image": "6.jpg"
+        "twitter_name": "", //String
+        "first_name": "", //String
+        "last_name": "", //String
+        "email": "", //String
+        "phone": "", //String
+        "followers": "", //Numbers
+        "image": "" //String
     }
 ]
