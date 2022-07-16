@@ -2,17 +2,15 @@ require("dotenv").config();
 require("./database/client");
 const express = require("express");
 const app = express();
+const userRouter = require('./routes/userRouter');
+const meRouter = require("./routes/meRouter");
 const cors = require("cors");
-const userRouter = require("./routes/userRouter");
 
 app.use(cors());
 app.use(express.static("public"));
 app.use(express.json());
 app.use("/users", userRouter);
-
-// app.get("/", (req, res) => {
-//     res.send(console.log("Yippi"));
-// })
+app.use("/me", meRouter);
 
 const PORT = process.env.PORT || 3030;
 
