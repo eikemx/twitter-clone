@@ -1,0 +1,20 @@
+@host = http://localhost:3030
+
+# @id = 
+
+### Get all message
+GET {{host}}/messages
+
+### Get on message
+# GET {{host}}/message/{{id}}
+
+### Create new message
+POST {{host}}/messages
+Content-Type: application/json
+
+[
+    {
+        "author": "62d28ed181719473c0345027",
+        "text": "I'm a Pull Stack Devloper. I just pull things off the Internet and put it into my code."
+    }
+]
